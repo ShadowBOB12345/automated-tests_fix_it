@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Lalafo Search and Filter Test', async ({ request }) => {
+test('Lalafo.kg Laptop Product Search and Filter Test', async ({ request }) => {
   const BASE_URL = 'https://lalafo.kg/api/search/v3/feed/search';
   
   // Параметры запроса
