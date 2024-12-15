@@ -71,7 +71,7 @@ The project is implemented using TypeScript and Playwright.
 |                     | 2. Click the "Search" button.                                  | A search field appears.                          | A search field appears.                        |
 |                     | 3. Enter "laptop" in the search field and press "Enter".       | Search results are displayed on the page.        | Search results are displayed on the page.      |
 | Price Filtering     | 1. Enter "laptop" in the search field.                         | The product "laptop" is found on the site.       | The product "laptop" is found on the site.     |
-|                     | 2. Set the price range (e.g., from 3000 to 10000) and click "Filter". | Products within the specified range are shown.  | Products outside the specified range are shown.|
+|                     | 2. Set the price range (e.g., from 30000 to 50000) and click "Filter". | Products within the specified range are shown.  | Products outside the specified range are shown.|
 
 ## Links to test cases
 - /tests/search.spec.ts – Tests related to search functionality and price filtering on Ozon
