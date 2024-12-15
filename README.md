@@ -41,24 +41,34 @@ The project is implemented using TypeScript and Playwright.
 ## Structure of project
 
 ```
-/ozon_search
-├── /environments           # Environment-specific configuration files
-├── /node_modules           # Project dependencies installed via npm
-├── /pages                  # Page Object Model (POM) folder
-│   ├── Search.page.ts      # Page model for search functionality on Ozon
+/automated-tests_fix_it
+├── /enviroments             # Auto test searchbox and filter
+├── /node_modules            # Project dependencies installed via npm
+├── /pages                   # Page Object Model (POM) folder
+│   ├── OrgAccount.page.ts       # Page model for search functionality 
+│   ├── README.md            # Changed README.md and renamed files
 │
-├── /tests                  # Folder containing tests
-│   ├── search.spec.ts      # Tests for search functionality
+├── /tests                   # Folder containing tests
+│   ├── APISHKA              # Add/Update API test files in APISHKA
+│   │   ├── postman-snippet.js
+│   │   ├── searchbox.ts     # Searchbox test with filters
+│   │   └── searchbox-with-filters.spec.ts
+│   ├── Postman collections  # Add newman and postman collections
+│   ├── UI TESTS             # API auto tests for UI
+│   │   ├── product_filter_validation.spec.ts
 │
-├── /tests-examples         # Folder with example tests
+├── /tests-examples          # POM add and updated README.md
 │   ├── demo-todo-app.spec.ts
 │   ├── example.spec.ts
 │
-├── .gitignore              # File specifying ignored files in git
-├── package-lock.json       # File listing project dependencies
-├── package.json            # Project configuration and dependencies
-├── playwright.config.ts    # Playwright configuration file
-├── README.md               # Project information file
+├── /test-results            # Folder for test results
+├── /playwright-report       # Playwright report folder
+│
+├── .gitignore               # File specifying ignored files in git
+├── package-lock.json        # File listing project dependencies
+├── package.json             # Project configuration and dependencies
+├── playwright.config.ts     # Playwright configuration for auto tests of search and filter
+├── README.md                # Updated README.md with project information
 
 ```
 ## Test cases
