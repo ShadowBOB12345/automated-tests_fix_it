@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { OrgAccountPage } from '../../pages/OrgAccount.page';
 
-test.describe('Laptops Search and Filter Functionality', () => {
+test.describe('Laptops Search and Filter Functionality!', () => {
 
     test('Check Page Object for laptops search', async({ page }) => {
         const orgPage = new OrgAccountPage(page);
